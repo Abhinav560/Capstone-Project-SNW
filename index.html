@@ -3,53 +3,142 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clinic Name | Home</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="assets/icons/favicon.png" />
+  <title>HealthyCare Clinic</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <header class="navbar">
-    <div class="container nav-content">
-      <a href="index.html" class="logo">ClinicName</a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <h1>HealthyCare Clinic</h1>
+    <p>Leading the way in compassionate, modern healthcare</p>
   </header>
 
-  <!-- Hero / Page Header -->
-  <section class="hero">
-    <div class="container">
-      <h1>Welcome to ClinicName</h1>
-      <p>Your health, our priority — modern care with a personal touch.</p>
-      <a href="services.html" class="btn-primary">View Services</a>
-    </div>
-  </section>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#doctors">Doctors</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <!-- Main Page Content -->
-  <main class="container page-content">
-    <!-- Replace this section per page -->
-    <h2>Our Mission</h2>
+  <div class="hero">
+    <img src="image1.jpeg" alt="Healthcare banner" class="hero-img" />
+    <img src="image2.jpg" alt="Secondary healthcare image" class="hero-img" />
+    <h1>Your Trusted Partner in Health & Wellness</h1>
     <p>
-      We’re committed to providing compassionate, high-quality healthcare to
-      every patient using modern techniques and a personal approach.
+      At HealthyCare Clinic, we believe everyone deserves access to professional, reliable, and compassionate healthcare. Our mission is to help you live a healthier and happier life through personalized medical service, ongoing support, and a team that truly listens to your needs.</p>
+  </div>
+
+  <div class="section" id="services">
+    <h2>Our Services</h2>
+    <p>
+      We offer a wide range of medical services designed to support your health at every stage of life.
+      Whether you're visiting for a routine checkup, a specialized consultation, or urgent care, our
+      experienced team is here to help.
     </p>
-  </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 ClinicName. All rights reserved.</p>
-      <p><a href="contact.html">Book an Appointment</a></p>
+    <div class="services-column">
+      <div class="card">
+        <img src="General checkup.jpeg" alt="General Checkup" />
+        <h3>General Checkup</h3>
+        <p>Detailed health assessments that help prevent potential issues before they start.</p>
+      </div>
+      <div class="card">
+        <img src="Pediatrics.jpeg" alt="Pediatrics" />
+        <h3>Pediatrics</h3>
+        <p>Warm, gentle, and professional medical care for children of all ages.</p>
+      </div>
+      <div class="card">
+        <img src="Vaccinations.webp" alt="Vaccinations" />
+        <h3>Vaccinations</h3>
+        <p>Protect yourself and your loved ones with safe and effective immunizations.</p>
+      </div>
+      <div class="card">
+        <img src="dental.jpg" alt="Dental Care" />
+        <h3>Dental Care</h3>
+        <p>Comprehensive dental services to brighten your smile and support oral health.</p>
+      </div>
     </div>
-  </footer>
+  </div>
+  </div>
+  </div>
 
-  <script src="js/script.js"></script>
+  <div class="section" id="doctors">
+    <h2>Meet Our Doctors</h2>
+    <p>
+      Our dedicated medical professionals bring years of experience, compassion, and a commitment to
+      helping you feel your best.
+    </p>
+
+    <div class="grid">
+      <div class="card doctor-card">
+        <img src="doc1.jpeg" alt="Doctor" height="125px" />
+        <h3>Dr. Sarah Johnson</h3>
+        <p>Renowned cardiologist with over a decade of expertise in heart health and treatment.</p>
+      </div>
+      <div class="card doctor-card">
+        <img src="doc2.jpeg" alt="Doctor" />
+        <h3>Dr. Michael Lee</h3>
+        <p>Caring pediatrician dedicated to supporting children’s development and well‑being.</p>
+      </div>
+      <div class="card doctor-card">
+        <img src="doc3.jpg" alt="Doctor" />
+        <h3>Dr. Emily Davis</h3>
+        <p>General physician focused on preventive medicine and personalized healthcare.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="testimonials">
+    <h2>What Our Patients Say</h2>
+    <p>We are proud to serve our community. Here's what some of our patients share about their experience:</p>
+
+    <div class="grid">
+      <div class="card testimonial">
+        <p>“The staff is incredibly friendly and professional. I always feel cared for.”</p>
+        <h4>- Anna W.</h4>
+      </div>
+      <div class="card testimonial">
+        <p>“I trust HealthyCare Clinic with my entire family's health. Highly recommended!”</p>
+        <h4>- Mark T.</h4>
+      </div>
+      <div class="card testimonial">
+        <p>“Amazing service! The doctors take time to explain everything clearly.”</p>
+        <h4>- Sarah K.</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="appointment">
+    <h2>Book an Appointment</h2>
+    <p>
+      Scheduling your visit with us is easy. Fill out the form below and our team will reach out to confirm
+      your appointment.
+    </p>
+
+    <form class="appointment-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+      HealthyCare Clinic is dedicated to redefining the way healthcare is delivered by combining modern medical technology with compassionate patient care. We focus on trust, comfort, and clarity—ensuring every patient feels understood, supported, and confident throughout their healthcare journey.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> contact@healthycare.com</p>
+    <p><strong>Phone:</strong> +1 234 567 890</p>
+    <p><strong>Address:</strong> 123 Wellness Street, Health City</p>
+    <p>We welcome your questions, feedback, and appointment requests. Let us know how we can help!</p>
+  </div>
+
+  <footer>
+    <p>© 2025 HealthyCare Clinic. Providing reliable healthcare for a better tomorrow.</p>
+  </footer>
 </body>
 </html>
